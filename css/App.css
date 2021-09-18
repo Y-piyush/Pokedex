@@ -1,0 +1,75 @@
+
+body{
+ color:rgb(250, 245, 245);
+
+       margin: 0%;
+        background-color:rgb(17, 202, 101);background-color: rgb(255, 115, 0);
+}
+h1{ 
+    text-align: center;
+  
+    margin:0%;
+    padding:3% 2%;
+font-size: 45px;
+
+
+ 
+
+ 
+}
+
+#pokedex{
+
+    display: flex;
+    color: rgb(7, 67, 156);
+   width: 100%; 
+
+    flex-wrap: wrap;
+  
+    justify-content: space-evenly;
+  
+    
+}
+.box{
+    width:250px;
+    
+    justify-content: center;
+    margin:4% 2% ;
+    
+    margin-top:0%;
+    background-color: rgb(16, 205, 238);
+   
+    border:2px solid rgb(127, 48, 134);
+    border-radius: 15px;
+    box-shadow: rgb(158, 66, 158);
+    text-align: center;
+    text-transform: capitalize;
+     padding: 2% 1%;
+     
+}
+.status{
+    display: none;
+    
+}
+ol{
+    list-style-type: none;
+}
+
+.box:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+    
+}
+.box:hover>.status{
+   display:inline;
+   text-align: start;
+   float:left;
+   padding-top: 10%;
+   padding-right: 1%;
+    
+}
+.box:hover>.box_image{
+    
+    display: inline;
+
+}
